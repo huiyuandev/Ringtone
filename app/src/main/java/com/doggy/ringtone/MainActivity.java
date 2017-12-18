@@ -17,11 +17,13 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void playSystemRingtone(View view) {
-        RingtoneUtil.startPlay(this);
+//        RingtoneUtil1.startPlay(this);
+        RingtoneUtil2.startPlay(this);
     }
 
     //停止播放铃声
     public void stopSystemRingtone(View view) {
-        RingtoneUtil.stopPlay();
+//        RingtoneUtil1.stopPlay();
+        RingtoneUtil2.stopPlay();
     }
 }

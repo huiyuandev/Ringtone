@@ -9,10 +9,10 @@ import java.io.IOException;
 
 /**
  * Created by hy on 2017/12/14.
- * 播放手机系统铃声工具类
+ * 播放手机系统铃声工具类（MediaPlayer播放）
  */
 
-public class RingtoneUtil {
+public class RingtoneUtil1 {
 
     private static MediaPlayer mMediaPlayer;
 
